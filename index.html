@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Webpage</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to Our Sample Page</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+      <li>Fourth Item</li>
+      <li>Fifth Item</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg" alt="Sample from Pexels" width="600">
+  </section>
+
+  <!-- Table of Contacts -->
+  <section>
+    <h2>Contacts Table</h2>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jane Doe</td>
+          <td>123 Apple St, Nairobi</td>
+          <td>+254700000001</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>John Smith</td>
+          <td>45 Banana Rd, Mombasa</td>
+          <td>+254700000002</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary Wanjiku</td>
+          <td>67 Orange Ave, Kisumu</td>
+          <td>+254700000003</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>Peter Otieno</td>
+          <td>89 Mango Blvd, Eldoret</td>
+          <td>+254700000004</td>
+          <td>peter@example.com</td>
+        </tr>
+        <tr>
+          <td>Lucy Kamau</td>
+          <td>101 Grape Dr, Nakuru</td>
+          <td>+254700000005</td>
+          <td>lucy@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>User Registration</h2>
+    <form action="#" method="post">
+      <!-- Name Field -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <!-- Email Field -->
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <!-- Password Field -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" minlength="6" required><br><br>
+
+      <!-- Date Field -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown -->
+      <label for="role">Choose your role:</label>
+      <select id="role" name="role" required>
+        <option value="">Select</option>
+        <option value="student">Student</option>
+        <option value="developer">Developer</option>
+        <option value="designer">Designer</option>
+        <option value="other">Other</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br><br>
+
+      <!-- Checkboxes -->
+      <p>Select your interests:</p>
+      <input type="checkbox" id="coding" name="interests" value="coding">
+      <label for="coding">Coding</label><br>
+
+      <input type="checkbox" id="music" name="interests" value="music">
+      <label for="music">Music</label><br>
+
+      <input type="checkbox" id="sports" name="interests" value="sports">
+      <label for="sports">Sports</label><br><br>
+
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Isaac Karanja. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
